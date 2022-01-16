@@ -7,7 +7,7 @@ function Header(){
                 <a href="#"><img src={logo} width="135px"/></a>
             </div>
             <div className="nav__bar flex">
-                <div className="nav__bar__links__container">
+                <div className="nav__bar__links__container flex allign__center">
                     <ul className="flex">
                         <li><a href="#">Learn</a></li>
                         <li><a href="#">About</a></li>
@@ -15,7 +15,7 @@ function Header(){
                     </ul>
                 </div>
                 <div className="button__container flex allign__center">
-                    <button>Download</button>
+                    <button className="green__solid__button">Download</button>
                 </div>
 
             </div>

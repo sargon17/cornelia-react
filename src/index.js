@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from "./header";
+import CornIsTheBlack from "./cornelia_is_the_new_black";
+import ToDoApp from "./toDoApp"
+import "./toDoApp.css"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Header />
-  </React.StrictMode>,
+    <div className='body'>
+      {/* <Header/>
+      <CornIsTheBlack/> */
+      <ToDoApp />}
+    </div>,
   document.getElementById('root')
 );
 
